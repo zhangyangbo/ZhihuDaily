@@ -1,0 +1,31 @@
+<FrameLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:psds="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ex00_day_.BlankFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+     <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        psds:pstsIndicatorHeight="3dp"
+        psds:pstsUnderlineHeight="0dp"
+        psds:pstsDividerColor="#00000000"
+        psds:pstsIndicatorColor="#99cccc"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        
+        android:background="@drawable/background_tabs" />
+
+     <android.support.v4.view.ViewPager
+        android:id="@+id/PageOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs"
+        android:layout_marginTop="50dp"
+        android:text="@string/hello_world" >
+      </android.support.v4.view.ViewPager>
+
+
+</FrameLayout>

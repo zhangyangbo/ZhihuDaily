@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp" 
+    >
+     <TextView
+        android:id="@+id/tv_yijianfankui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="意见反馈"
+        android:layout_marginBottom="6dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+       <TextView
+        android:id="@+id/tv_xian10"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="16dp"
+        android:background="#C0C0C0"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_yijianfankui"
+         />
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="6dp">
+
+    <TextView
+        android:id="@+id/tv_fankui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="反馈"
+        android:layout_marginBottom="6dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_xian9"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentLeft="true"
+        android:background="#C0C0C0"
+        android:layout_below="@+id/tv_fankui" />
+
+</RelativeLayout>

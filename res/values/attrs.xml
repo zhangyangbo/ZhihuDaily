@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="layouBackgroundColor" format="color"></attr>
+    <attr name="listViewBackgroundColor" format="color"></attr>
+    <attr name="listViewCardBackgroundColor" format="color"></attr>
+    <attr name="toolbarBackgroundColor" format="color"></attr>
+    
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+</resources>
+

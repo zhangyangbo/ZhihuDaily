@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/ima_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="57dp"
+            android:src="@drawable/share" />
+
+        <ImageView
+            android:id="@+id/ima_collet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ima_share"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ima_share"
+            android:src="@drawable/collect" />
+
+        <ImageView
+            android:id="@+id/ima_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ima_share"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ima_collet"
+            android:src="@drawable/praise" />
+
+        <TextView
+            android:id="@+id/tv_dianzan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ima_share"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/ima_praise"
+            android:textSize="20dp"
+            android:text="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/ima_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ima_share"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_dianzan"
+            android:src="@drawable/comment" />
+
+        <TextView
+            android:id="@+id/tv_pinglun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ima_share"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ima_comment"
+            android:textSize="20dp"
+            android:text="8"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+</RelativeLayout>
